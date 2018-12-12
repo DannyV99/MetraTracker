@@ -44,8 +44,11 @@ img {
   0% {
     top:900px;
   }
+  100% {
+    left: 100px;
+  }
   
-  to { transform: scale(10.1); }
+  to { transform: scale(9.1); }
   0%   { opacity: -1; }
   100% { opacity: 1; }
 }
@@ -72,8 +75,6 @@ button{
 .title1{
   font-size: 25px;
 }
-
-
 .clock{
   margin-top: 50px
 
