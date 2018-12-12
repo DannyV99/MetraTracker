@@ -1,0 +1,81 @@
+body{
+  background-color: #2f7a8f; 
+  font-family: "Whitney Cond A"
+
+}
+.bigBox{
+  text-align: center;
+}
+.div1, .div2{
+  margin: 20px;
+  line-height: 40px;
+  list-style-type: none;
+  display: inline;
+}
+.div3{
+  margin: 20px;
+  line-height: 40px;
+  list-style-type: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 25px 20px;
+}
+td, th {
+  text-align: center;
+  font-size: 25px
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  animation: floatBubble 3s normal ease-in-out;
+}
+
+@keyframes floatBubble {
+  100% {
+    top: 300px;
+  }
+  0% {
+    top:900px;
+  }
+  
+  to { transform: scale(10.1); }
+  0%   { opacity: -1; }
+  100% { opacity: 1; }
+}
+
+button{
+  border-radius: 8px;
+  height: 30px;
+  color: #2f7a8f;
+  font-size: 15px;
+}
+.weatherDiv{
+  display: flex;
+  justify-content: center;
+  font-size: 8px;
+  
+}
+.MMM{
+  margin-right: 70px;
+
+}
+.picDiv{
+  display: inline;
+}
+.title1{
+  font-size: 25px;
+}
+
+
+.clock{
+  margin-top: 50px
+
+}
+
