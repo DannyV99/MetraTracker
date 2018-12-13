@@ -1,0 +1,25 @@
+CREATE DATABASE MetraTrainTimesDB;
+USE MetraTrainTimesDB;
+
+CREATE TABLE WeekdaysToTheCity
+(
+	id int NOT NULL AUTO_INCREMENT,
+	DepartureTime INT(11) NOT NULL,
+	TrainStop VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE WeekdaysFromTheCity
+(
+	id int NOT NULL AUTO_INCREMENT,
+	DepartureTime INT(11) NOT NULL,
+	TrainStop VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE WeatherPictures
+(
+	id int NOT NULL AUTO_INCREMENT,,
+	url VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);

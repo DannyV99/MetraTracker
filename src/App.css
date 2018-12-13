@@ -1,6 +1,7 @@
 body{
   background-color: #2f7a8f; 
-  font-family: "Whitney Cond A"
+  font-family: "Whitney Cond A";
+  color: white;
 
 }
 .bigBox{
@@ -49,7 +50,7 @@ img {
   }
   
   to { transform: scale(9.1); }
-  0%   { opacity: -1; }
+  0%   { opacity: -7; }
   100% { opacity: 1; }
 }
 
