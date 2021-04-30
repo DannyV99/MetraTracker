@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
     host: "172.18.0.2",
     user: "root",
     password: "secret",
-    database: "todos",
+    database: "MetraTrainTimesDB",
     
 });
 
