@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Weather from './Weather'
-import Clock from 'react-clock'
+
 
 class App extends Component {
 
@@ -78,7 +78,7 @@ class App extends Component {
 
 
 
-    
+
 
 
 
