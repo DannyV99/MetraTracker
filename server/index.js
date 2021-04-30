@@ -7,12 +7,10 @@ const app = express();
 
 
 const connection = mysql.createConnection({
-    host: "localhost",
-    port: 8889,
+    host: "172.18.0.2",
     user: "root",
-    password: "root",
-    database: "MetraTrainTimesDB",
-    socket: "/Applications/MAMP/tmp/mysql/mysql.sock"
+    password: "secret",
+    database: "todos",
     
 });
 
